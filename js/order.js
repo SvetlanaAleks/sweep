@@ -319,7 +319,10 @@ document.addEventListener("DOMContentLoaded", () => {
   mask("building", {
     mask: /^[0-9ก-ฮa-zA-Z/-\s]{0,8}$/,
   });
-
+  //Маска для адреса
+  mask("address", {
+    mask: /^[0-9ก-ฮa-zA-Z/-\s]{0,8}$/,
+  });
   //Маска для года рождения
   mask("birthday", {
     mask: "0000",
